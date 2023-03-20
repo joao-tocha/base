@@ -1,1 +1,4 @@
-
+body { /* altera o estilo do corpo da pagian html */
+    background-color: pink;
+    text-align:center
+}
