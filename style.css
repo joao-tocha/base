@@ -1,4 +1,149 @@
-body { /* altera o estilo do corpo da pagian html */
-    background-color: pink;
-    text-align:center
+/* Define para todo documento HTML as propriedades */
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-image: linear-gradient(#155301, #9f8d00, #6d0f03);
+    
+}
+/* 
+body{
+    background-size:50%;
+    background-color: #030124;
+    background-image: url("img/cabecalho.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+} */
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #dbdbe1;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #0bce01;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #c70cd4;
+    color: rgb(27, 9, 160);
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+.programacao {
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.programacao-titulo {
+    padding: 24px 0;
+}
+
+.programacao-texto {
+    padding: 6px 0;
+}
+
+.programacao-conteudo {
+    text-align: justify;
+    width: 50%;
+}
+
+.programacao-imagem {
+    width: 30%;
+    padding-left: 5%;
+}
+
+.ferramenta {
+    color: white;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.ferramenta-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.ferramenta-grid {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.ferramenta-imagem{
+    width: 75%;
+}
+
+.ferramenta-imagem:hover{
+    filter: drop-shadow(0 0 0.75rem white);
+}
+
+.ferramenta-div {
+    text-align: center;
+    align-self: center;
+    padding-bottom: 20%;
+}
+
+.aula {
+    color: white;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.aula-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.aula-grid {
+    display:grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.aula-imagem{
+    width: 50%;
+}
+
+.aula-div{
+    text-align: center;
+    padding: 32px ;
+}
+
+.aula-list-div{
+    text-align: left;
+    padding: 0px 64px;
+}
+
+.aula-icone{
+    vertical-align: middle;
+    width:32px;
+    padding: 16px;
+}
+
+.aula-icone:hover{
+    filter: invert(1);
 }

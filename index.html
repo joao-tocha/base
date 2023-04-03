@@ -4,17 +4,220 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <!--Inserir titulo aqui-->
-
-    <link rel="stylesheet" href="style.css"><!-- inserir os codigos de estilo a pagina web-->
+    <title>Programação</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fontes de Texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>h1h1h1h1</h1><!-- titulo no corpo de texto -->
-    <h2>h2h2h2h2</h2><!-- subtitulo no corpo de texto -->
-    <p>primeiro paragrara</p><!-- para inserir paragrafos -->
-    <p>segundo paragrafo, usa a tag p separada</p><!-- para cada paragrafo deve-se inserir a tag p -->
-    <p>cada paragrafo necessita de uma tag p.</p><!-- para cada paragrafo deve-se inserir a tag p -->
-    <img class="imagem-corpo" src="img/Muzzle.gif" alt=""> <!--para inserir uma imagem, src é o endereço-->
-    <p>paragrafo apos a imagem</p><!-- para outro paragrafo é preciso utilizar um nova tag p -->
+    <!-- barra de navegação-->
+    <section class="navbar">
+            <a href="#section01">Sobre</a>
+            <a href="#section02">Usando a criatividade</a>
+            <a href="#section03">Praticando HTML e CSS</a>
+            <a href="#section04">Ferramentas</a>
+    </section>
+
+    <section class="programacao" id="section01">
+        <div class="programacao-conteudo">
+            <h2 class="programacao-titulo">Sobre as aulas programação</h2>
+            <p class="programacao-texto">
+                O objetivo desta página é apresentar aos estudantes a Programação como prática pedagógica para o desenvolvimento
+                do pensamento computacional, uma vez que o ato de programar envolve criar soluções para a resolução de problemas 
+                diversos, utilizando habilidades como abstração e análise.
+            </p>
+            <p class="programacao-texto">
+                A presente Trilha de Aprendizagem abordará a Linguagem de Marcação de Hipertexto - HTML, responsável por definir 
+                o conteúdo da página, para que esse seja exibido em um navegador da web; a Linguagem de Folha de Estilo em Cascata - CSS,
+                cuja aplicação relaciona-se com a definição de estilos que controlam a aparência da página e a Linguagem de Programação 
+                JavaScript, para tornar a página mais dinâmica, adicionando a ela elementos interativos.
+            </p>
+            <p class="programacao-texto">
+                Com o intuito de aplicar os conhecimentos e desenvolver as habilidades previstas para o componente, ao longo do ano, o estudante desenvolverá 
+                um projeto prático, que consiste na criação de uma página web responsiva, utilizando HTML, CSS e JavaScript, sendo ela o produto pedagógico esperado.
+            </p>
+        </div>
+        <img class=programacao-imagem src="./img/prog.png" alt="Programação">
+    </section>
+
+    <section class="aula">
+        <h2 class="aula-titulo" id="section02">Usando a criatividade para criar o seu site</h2>
+        <div class="aula-grid">
+            <div class="aula-div">
+                <img class="aula-imagem" src="./img/aula01.png" alt="Aula 01">
+                <h3 class="aula-nome">Aula 01</h3>
+                <a href="https://drive.google.com/file/d/1-WkzYH5aI662Z5ATZT51qcYUGSACYwy_/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1wFhd42B5CXg53cN53FJc6PoWclzjzdn9/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+            </div>
+            <div class="aula-div">
+                <img class="aula-imagem" src="./img/aula02.png" alt="Aula 02">
+                <h3 class="aula-nome">Aula 02</h3>
+                <a href="https://drive.google.com/file/d/1ZzArwER-fMC8iPFPvt0we5RxpmWFqycT/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1ngwqvrcsWI4U-FgwNGkwkAtsciXz1aoo/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+            </div>
+            <div class="aula-div">
+                <img class="aula-imagem" src="./img/aula03.png" alt="Aula 03">
+                <h3 class="aula-nome">Aula 03</h3>
+                <a href="https://drive.google.com/file/d/1dKoMqueI8V10A_szYk1oKrC5zac1wYJN/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1uO4XwQ8_PMoG848dhIgqpw4znIt2jTTS/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+            </div>
+            <div class="aula-div">
+                <img class="aula-imagem" src="./img/aula04.png" alt="Aula 04">
+                <h3 class="aula-nome">Aula 04</h3>
+                <a href="https://drive.google.com/file/d/1IR9lBouWwPGFoFXpX7y5vytjs0tUT1Ag/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1KBBlQJrS36Zljj4xN9-UtGJoB5zt9XjI/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+            </div>
+            <div class="aula-div">
+                <img class="aula-imagem" src="./img/aula05.png" alt="Aula 05">
+                <h3 class="aula-nome">Aula 05</h3>
+                <a href="https://drive.google.com/file/d/1r9CVgBAinxxM3Vbsd9cNs_amNK86Wrmt/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1LDCKtqBkoqzMVUtEV8c1SZP1JL__taZY/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+            </div>
+            <div class="aula-div">
+                <img class="aula-imagem" src="./img/aula06.png" alt="Aula 06">
+                <h3 class="aula-nome">Aula 06</h3>
+                <a href="https://drive.google.com/file/d/1aZacuo5PY08hVkgxUwty_WzIdSAGI_CV/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1rLefQmkUD41PEBy4yz3JiUGlAe6ZPoyH/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+            </div>
+        </div>
+
+        <h2 class="aula-titulo" id="section03">Praticando HTML e CSS</h2>
+        <div class="aula-list">
+            <div class="aula-list-div">
+                <h3 class="aula-nome">VSCode a base do HTML
+                <a href="https://drive.google.com/file/d/1YV1QYL2wrfMD84JwXWELZL0HrnpUxq12/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1oOU9thqD41Rk_QdWdYRngIhX6UfUK1Df/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Começando com o CSS Criando variáveis no CSS Adicionando cor ao site Compreendendo e utilizando margin e padding
+                <a href="https://drive.google.com/file/d/1Pue92u0bLnJwuIOoYcN6ytb3sEWDLUMu/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/15_ucYc1fa_gcI__d0zdoBkh28S06S02C/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Inserindo imagem no site
+                <a href="https://drive.google.com/file/d/1Na1Zn649j58_KJu_Lo3YYrZ9V5O1RbIf/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1iqrErYuukUjwkwnxF9qmAOiJmycDLXMp/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Criando botão para o site
+                <a href="https://drive.google.com/file/d/1G-AC-yj9GLp2TWU_QSTAhkVJp3uYOyUb/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1LE_QNAJ8QjpOp-SxYw9RwXY5Tal6cfyY/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Utilizando o Grid Utilizando o atributo border Fazendo melhorias no site
+                <a href="https://drive.google.com/file/d/1WH0XQ4ahkfxi71m6UgdpKpJxxzvHx-Je/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1AbPOMwe55n_D3JDLPhOzKqHArqByGpxQ/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Alterando as fontes do site
+                <a href="https://drive.google.com/file/d/1xqMEYAQEzUCPoQZdUPlCHq0s8q-U4Tld/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1V17A0qi6Ab4_IPhGZQBxp-EhLhKIMG-O/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Compreendendo e utilizando margins e paddings 
+                <a href="https://drive.google.com/file/d/1QETbugatNsmMK4Qr8ptRLnlDs6Yfmob8/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1QETbugatNsmMK4Qr8ptRLnlDs6Yfmob8/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Trabalhando com alinhamentos 
+                <a href="https://drive.google.com/file/d/171XetIVyb7tbszoNtaGXy0K8ItqUZWeH/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1zWEV2Ushhmx6mQsOuVdGLqugzOvUbx-p/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Construindo uma nova section 
+                <a href="https://drive.google.com/file/d/1TpeuzDaieABQQCPbfFjzq-LqHQYpu972/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1lPduELoafB_60Cb3K1bLJV0eYCcO7at-/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Reutilizando estilos 
+                <a href="https://drive.google.com/file/d/1uM6ack6cWDgy1C3yyCIrwgu_UARs5547/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1TodYAAdcEQ-xC9h4mCXWzD10yp_N0bfr/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Compreendendo e utilizando o flexbox
+                <a href="https://drive.google.com/file/d/1YwTfr_NpU3Vp0JdGzSwmuhkpEzMOeqGq/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1XZ6A1uBGShRLWAr0amIENoYotlFsmhgX/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Utilizando o flexbox
+                <a href="https://drive.google.com/file/d/1UB0PhGPeSeco4UJpbvWPSwbGyevvGfd9/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1cnFicr1DBn8NZRHZAoQArpFQi3cjqxjw/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Criando um rodapé (footer) Compreendendo e utilizando pseudo-classes 
+                <a href="https://drive.google.com/file/d/1-L4qXVEjR9LViZfaGhyKXHv30MT6FOLf/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/10BM-GdgWy8YowgWda7ZCy653zR9TW0z6/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Utilizando o GitHub I
+                <a href="https://drive.google.com/file/d/1w7pVTWuk3S5U44P_rzQho8zWvinto87W/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1ZtEo_BmBDd2q1Bnhm6a_Kp428do-p5ei/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Utilizando o GitHub II
+                <a href="https://drive.google.com/file/d/1uRBwzbZom1Or3b1Y8BFTSvqCQKbFgFd5/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1JP_ojZIutWx9tzsFWC0n7vm3VgTv3lWZ/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Utilizando o GitHub Pages
+                <a href="https://drive.google.com/file/d/1-OnUIax4kTOC96AD-Jg3pJZTsf7ka0te/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/12c-O3Nj_O211FjEZhBeBxD7y4CIzaGAw/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Fazendo deploy na Vercel
+                <a href="https://drive.google.com/file/d/1zQ2tEu6M4A1hCpI4Y6tLtlAUvNXov5Ws/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/16mLw06SaeyfwAqtZllqk45CKz-W5GK6Z/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+            <div class="aula-list-div">
+                <h3 class="aula-nome">Utilizando o VSCode Web
+                <a href="https://drive.google.com/file/d/1MbI5MonfCKD5Wd8zOyt0JQyDckhkXUm9/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/youtube.png" alt="Youtube"></a>
+                <a href="https://drive.google.com/file/d/1wqINW9AXvLkcoLJKw2u7ze9uuVCQWItk/view?usp=share_link" target="_blank"><img class="aula-icone" src="./img/pdf.png" alt="PDF"></a>
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="ferramenta" id="section04">
+        <h2 class="ferramenta-titulo">Ferramentas </h2>
+        <div class="ferramenta-grid">
+            <div class="ferramenta-div">
+                <a href="https://cursos.alura.com.br/loginForm?logout" target="_blank"><img class="ferramenta-imagem" src="./img/alura.png" alt="Alura"></a>
+            </div>
+            <div class="ferramenta-div">
+                <a href="https://www.figma.com" target="_blank"><img class="ferramenta-imagem" src="./img/figma.svg" alt="Figma"></a>
+            </div>
+            <div class="ferramenta-div">
+                <a href="https://www.flaticon.com/br/" target="_blank"><img class="ferramenta-imagem" src="./img/flaticon_negative.svg" alt="Flaticon"></a>
+            </div>
+            <div class="ferramenta-div">
+                <a href="https://storyset.com" target="_blank"><img class="ferramenta-imagem" src="./img/storyset.svg" alt="Storyset"></a>
+            </div>
+            <div class="ferramenta-div">
+                <a href="https://fonts.google.com" target="_blank"><img class="ferramenta-imagem" src="./img/fonts.png" alt="Google Fonts"></a>
+            </div>
+            <div class="ferramenta-div">
+                <a href="https://www.w3schools.com" target="_blank"><img class="ferramenta-imagem" src="./img/under-construction.png" alt="W3Scholls"></a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
